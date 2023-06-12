@@ -30,4 +30,4 @@ Para el ejemplo se utilizara la api Twilio y asi poder enviar mensajes, por lo c
 
 
 ### ✅ Base de datos seleccionada
-Se seleccionó una base de datos no relacional porque son mucho más flexibles a la hora de crear esquemas de información, lo que las convierte en una solución ideal para el almacenamiento y gestión de datos no estructurados. Ofrecen una mayor escalabilidad. Pueden soportar mayores volúmenes de datos y añadir mayor capacidad añadiendo nuevos módulos de software, sin necesidad de añadir nuevos servidores.
+Se seleccionó una base de datos no relacional debido a que son mucho más flexibles a la hora de crear esquemas de información, lo que las convierte en una solución ideal para el almacenamiento y gestión de datos no estructurados. Ofrecen una mayor escalabilidad. Pueden soportar mayores volúmenes de datos y añadir mayor capacidad añadiendo nuevos módulos de software, sin necesidad de añadir nuevos servidores.
