@@ -25,8 +25,8 @@ Para el ejemplo se utilizara la api Twilio y asi poder enviar mensajes, por lo c
          })
 
 ### ✅ Ejecución de pruebas
-1. Las pruebas de intregración se encuentran dentro de la carpeta e2e, ejecuta el siguiente comando para correr los test de intregración: npm run test:e2e. Tambien se peude ejecutar un los test uno a la vez ejecutando npm run test services/twilio.service o npm run test services/message.service
-2. Las pruebas unitarias se encuentran dentro de la carpeta services, ejecuta el siguiente comando para correr los test unitarios: npm run test 
+1. Las pruebas de intregración se encuentran dentro de la carpeta e2e, ejecuta el siguiente comando para correr los test de intregración: npm run test:e2e.
+2. Las pruebas unitarias se encuentran dentro de la carpeta services, ejecuta el siguiente comando para correr los test unitarios: npm run test. Tambien se peude ejecutar un los test uno a la vez ejecutando npm run test services/twilio.service o npm run test services/message.service.
 
 
 ### ✅ Base de datos seleccionada
