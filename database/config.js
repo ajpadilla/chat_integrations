@@ -1,10 +1,13 @@
 const mongosee = require('mongoose');
+const {config} = require("../config");
 
 const dbConnection = async() => {
     try {
-        //mongosee.connect(process.env.MONGODB_CNN);
-        // Se debe crear primero manual la base de datos en mongodb
-        mongosee.connect('mongodb://localhost:27017/chat_intregrations');
+        const DB_NAME = config.dbName;
+        const MONGO_URI = config.dbUrl;
+        const URI = `${MONGO_URI}/${DB_NAME}`;
+        console.log('URI',URI);
+        mongosee.connect(URI);
         console.log("Base de datos online");
     }catch (error) {
         console.log(error)

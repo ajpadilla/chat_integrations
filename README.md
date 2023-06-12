@@ -5,7 +5,8 @@
 
 1. [Install Node](https://kinsta.com/es/blog/como-instalar-node-js/)
 2. [Install MongoDB](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/#additional-information)
-3. Clonar el proyecto: `git clone https://github.com/CodelyTV/php-ddd-example php-ddd-example`
+3. Clonar el proyecto: `https://github.com/ajpadilla/chat_integrations`
+4. Crear una cuenta en Twilio (https://dicksondata.com/support/article/creating-a-twilio-account)
 
 ### 🛠️ Environment configuración
 
