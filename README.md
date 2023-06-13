@@ -17,7 +17,7 @@ Para el ejemplo se utilizara la api Twilio y asi poder enviar mensajes, por lo c
 ### 🔥 Ejecución de aplicaciones
 
 1. Instale todas las dependencias del proyecto ejecutando: `npm install`
-2. Entonces tendrás la aplicación disponible por defecto en el puerto 3000:
+2.  Ejecute `npm run dev` entonces tendrás la aplicación disponible por defecto en el puerto 3000:
     1. [GET] http://localhost:3000/messages
     2.   [POST] http://localhost:3000/messages (se debe enviar 2 parametros en el cuerpo de la peticion {
          "body": "",
